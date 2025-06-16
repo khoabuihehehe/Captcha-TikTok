@@ -7,8 +7,8 @@
 ### Bước 1: Tải mã nguồn về máy
 
 ```bash
-git clone https://github.com/khoabuihehehe/captchav1.git
-cd captchav1
+git clone https://github.com/khoabuihehehe/Captcha-TikTok.git
+cd Captcha-TikTok
 ```
 
 ### Bước 2: Cài đặt các thư viện phụ thuộc
