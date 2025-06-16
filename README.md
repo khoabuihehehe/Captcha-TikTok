@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ### Bước 3: Khởi động máy chủ API
 
 ```bash
-uvicorn app:app --host 0.0.0.0 --port 8000 --workers 4
+uvicorn app:app --host 127.0.0.1 --port 2008 --workers 4
 ```
 
 ### Bước 4: Gọi API giải Captcha từ Python
@@ -54,7 +54,7 @@ def solve_puzzle(piece_path, background_path, result_path):
         "background": (os.path.basename(background_path), open(background_path, "rb"), "image/png"),
     }
     start = time.time()
-    response = requests.post("http://127.0.0.1:8000/captcha/puzzle/", files=files)
+    response = requests.post("http://127.0.0.1:2008/captcha/puzzle/", files=files)
     duration = time.time() - start
     data = response.json()
     angle = data.get("angle")
@@ -74,7 +74,7 @@ def solve_rotate(inner_path, outer_path, result_path):
         "outer": (os.path.basename(outer_path), open(outer_path, "rb"), "image/png"),
     }
     start = time.time()
-    response = requests.post("http://127.0.0.1:8000/captcha/rotate/", files=files)
+    response = requests.post("http://127.0.0.1:2008/captcha/rotate/", files=files)
     duration = time.time() - start
     data = response.json()
     angle = data.get("angle")
