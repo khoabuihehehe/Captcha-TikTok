@@ -1,4 +1,9 @@
-## Captcha Solver API
+# CAPTCHA-TIKTOK-SOLVER
+
+<h2 align="center">
+  ⭐️ CAPTCHA TIKTOK &amp; ROTATE &amp; PUZZLE 🔥
+</h2>
+
 
 Đây là mã nguồn Python mẫu giúp bạn gửi ảnh captcha lên server API (hỗ trợ cả dạng xoay - rotate và ghép mảnh - puzzle), nhận về kết quả giải captcha và lưu ảnh trả về.
 
