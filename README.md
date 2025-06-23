@@ -1,7 +1,7 @@
 # CAPTCHA-TIKTOK-SOLVER
 
 <h2 align="center">
-  ⭐️ CAPTCHA TIKTOK &amp; ROTATE &amp; PUZZLE 🔥
+  ⭐️ CAPTCHA TIKTOK SOLVER ROTATE &amp; PUZZLE 🔥
 </h2>
 
 
